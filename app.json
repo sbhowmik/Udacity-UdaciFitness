@@ -1,10 +1,23 @@
 {
   "name": "UdaFitness",
   "displayName": "UdaFitness",
+  "description": "The best triathlon training app in the world.",
   "expo": {
+    "sdkVersion": "19.0.0",
+    "orientation": "portrait",
     "name": "UdaFitness",
     "slug": "UdaFitness",
     "version": "1.0.0",
+    "icon": "https://maxcdn.icons8.com/Color/PNG/512/Sports/triathlon-512.png",
+    "notification": {
+      "icon": "http://www.student-scholarships.com/images/made/img/featured/nav_basketball_45_45.png"
+    },
+    "ios": {
+      "bundleIdentifier": "org.udacifitness.exp"
+     },
+     "android": {
+      "package": "org.udacifitness.exp"
+     },
     "platforms": [
       "ios",
       "android",
